@@ -5,36 +5,43 @@ using OlshopBaju.Models;
 
 namespace OlshopBaju.ViewModels
 {
-    class BajuViewModel
+    public class BajuViewModel
     {
-        public ObservableCollection<Uniform> uniform { get; set; }
+        public ObservableCollection<Uniform> Outfit { get; set; }
         public ObservableCollection<Market> market { get; set; }
         public ObservableCollection<UniformBar> uniformBar { get; set; }
 
         public BajuViewModel()
         {
-            uniform = new ObservableCollection<Uniform>
+            Outfit = new ObservableCollection<Uniform>
             {
                 new Uniform
                 {
-                    Picture = "",
-                    Title = "Durian Mon Tong",
-                    Price = "$19.99",
-                    backColor = "#f5dfba"
+                    FotoOutfit = "Uniform01.png",
+                    NamaOutfit = "Deep Sea Blue",
+                    Harga = "$19.99",
+                    backColor = Color.Blue
                 },
                 new Uniform
                 {
-                    Picture = "",
-                    Title = "Hawaiian Papaya",
-                    Price = "$4.55",
-                    backColor = "#ffc599"
+                    FotoOutfit = "baju2.jpeg",
+                    NamaOutfit = "Hawaiian Papaya",
+                    Harga = "$4.55",
+                    backColor = Color.Pink
                 },
                 new Uniform
                 {
-                    Picture = "",
-                    Title = "Durian Mon Tong",
-                    Price = "$19.99",
-                    backColor = "#f5dfba"
+                    FotoOutfit = "baju3.jpeg",
+                    NamaOutfit = "Baju apa ini?",
+                    Harga = "$19.99",
+                    backColor = Color.Aqua
+                },
+                new Uniform
+                {
+                    FotoOutfit = "Uniform01.png", 
+                    NamaOutfit = "Baju apa ini?", 
+                    Harga = "$19.99",
+                    backColor = Color.Beige
                 }
             };
 
@@ -42,17 +49,17 @@ namespace OlshopBaju.ViewModels
             {
                 new UniformBar
                 {
-                     Picture  = "Watermelon",
+                     Picture  = "",
                      Quantity = "+2"
                 },
                 new UniformBar
                 {
-                     Picture  = "Strawberry",
+                     Picture  = "",
                      Quantity = "+10"
                 },
                 new UniformBar
                 {
-                     Picture  = "Mango",
+                     Picture  = "",
                      Quantity = "+4"
                 }
             };
@@ -61,7 +68,7 @@ namespace OlshopBaju.ViewModels
             {
                 new Market
                 {
-                    Picture     = "",
+                    Picture     = "uniform1.png",
                     Title       = "24/7 Fruit Market",
                     Schedule    = "00:00 - 24:00",
                     Description = "⭐ 4.9 | 📍 3 km"

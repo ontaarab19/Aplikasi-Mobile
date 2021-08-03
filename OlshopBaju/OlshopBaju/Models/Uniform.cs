@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Drawing;
 
 namespace OlshopBaju.Models
 {
-    class Uniform
+    public class Uniform
     {
-        public string Picture { get; set; }
-        public string Title { get; set; }
-        public string Price { get; set; }
-        public string backColor { get; set; }
+        public string FotoOutfit { get; set; }
+        public string NamaOutfit { get; set; }
+        public string Harga { get; set; }
+        public Color backColor { get; set; }
     }
 }
