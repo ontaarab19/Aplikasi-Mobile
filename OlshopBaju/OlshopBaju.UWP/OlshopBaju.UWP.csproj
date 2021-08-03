@@ -104,6 +104,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aesthetic.jpg" />
     <Content Include="Assets\baju1.jpeg" />
     <Content Include="Assets\baju2.jpeg" />
     <Content Include="Assets\baju3.jpeg" />
@@ -132,7 +133,8 @@
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
-    <Content Include="Assets\Uniform01.png" />
+    <Content Include="tokyo.jpg" />
+    <Content Include="Uniform01.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />

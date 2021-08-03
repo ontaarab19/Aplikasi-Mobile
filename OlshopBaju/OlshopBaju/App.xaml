@@ -6,5 +6,48 @@
              mc:Ignorable="d"
              x:Class="OlshopBaju.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#332196F3" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeBrands">
+                <On Platform="Android" Value="faBrands400.ttf#Regular" />
+                <!--<On Platform="iOS" Value="FontAwesome5Brands-Regular" />-->
+                <On Platform="UWP"  Value="/Assets/faBrands400.ttf#Font Awesome 5 Brands Regular" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeSolid">
+                <On Platform="Android" Value="faSolid900.ttf#Regular" />
+                <!--<On Platform="iOS" Value="FontAwesome5Free-Solid" />-->
+                <On Platform="UWP" Value="/Assets/faSolid900.ttf#Font Awesome 5 Free Solid" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeRegular">
+                <On Platform="Android" Value="faRegular400.ttf#Regular" />
+                <!--<On Platform="iOS" Value="FontAwesome5Free-Regular" />-->
+                <On Platform="UWP" Value="/Assets/faRegular400.ttf#Font Awesome 5 Free Regular" />
+            </OnPlatform>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -6,7 +6,11 @@
              xmlns:viewmodels="clr-namespace:OlshopBaju.ViewModels" 
              xmlns:models="clr-namespace:OlshopBaju.Models"
              x:Class="OlshopBaju.Views.UnishopPage">
-
+    
+    <ContentPage.BindingContext>
+        <viewmodels:BajuViewModel/>
+    </ContentPage.BindingContext>
+    
     <ContentPage.Content>
         <!-- Badan Utama UI Aplikasi -->
         <Grid BackgroundColor="LightSkyBlue">
@@ -35,7 +39,7 @@
                         <!-- Header -->
                         <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="Trendy Outfit" FontSize="30" FontAttributes="Bold" TextColor="Black" Padding="20,0"/>
                         <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="Make your day beautiful" FontSize="15" TextColor="Gray" Padding="20,0"/>
-                        <Button Grid.Column="1" Grid.Row="0" ImageSource=" " Grid.RowSpan="2" BackgroundColor="#fed300" WidthRequest="{OnPlatform Android='50'}" HeightRequest="{OnPlatform Android='50'}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,20,0"/>
+                        <Button Grid.Column="1" Grid.Row="0" ImageSource=" " Grid.RowSpan="2" BackgroundColor="LightSkyBlue" WidthRequest="{OnPlatform Android='50'}" HeightRequest="{OnPlatform Android='50'}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,20,0"/>
                    
                         <!-- 3. Fruit list-->
                         <CollectionView Grid.Column="0"

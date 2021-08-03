@@ -68,17 +68,17 @@ namespace OlshopBaju.ViewModels
             {
                 new Market
                 {
-                    Picture     = "uniform1.png",
-                    Title       = "24/7 Fruit Market",
-                    Schedule    = "00:00 - 24:00",
-                    Description = "⭐ 4.9 | 📍 3 km"
+                    Picture     = "tokyo.jpg",
+                    Title       = "Cyberpunk 2077",
+                    Schedule    = "20:00 - 24:00",
+                    Description = "⭐ 4.0 | 📍 2 km"
                 },
                 new Market
                 {
-                    Picture     = "",
-                    Title       = "Fruit Valley",
-                    Schedule    = "04:00 - 21:00",
-                    Description = "⭐ 4.9 | 📍 3 km"
+                    Picture     = "aesthetic.jpg",
+                    Title       = "Aesthetic Spirit",
+                    Schedule    = "08:00 - 21:00",
+                    Description = "⭐ 4.9 | 📍 2.5 km"
                 },
                 new Market
                 {
