@@ -38,8 +38,8 @@
 
                         <!-- Header -->
                         <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="Trendy Outfit" FontSize="30" FontAttributes="Bold" TextColor="Black" Padding="20,0"/>
-                        <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="Make your day beautiful" FontSize="15" TextColor="Gray" Padding="20,0"/>
-                        <Button Grid.Column="1" Grid.Row="0" ImageSource=" " Grid.RowSpan="2" BackgroundColor="LightSkyBlue" WidthRequest="{OnPlatform Android='50'}" HeightRequest="{OnPlatform Android='50'}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,20,0"/>
+                        <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="Make your day beautiful today!" FontSize="15" TextColor="Gray" Padding="20,0"/>
+                        <Button Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" CornerRadius="10" ImageSource="shop.png" BackgroundColor="LightSkyBlue" WidthRequest="{OnPlatform Android='60'}" HeightRequest="{OnPlatform Android='50'}" VerticalOptions="Fill" HorizontalOptions="End" Margin="0,0,20,0"/>
                    
                         <!-- 3. Fruit list-->
                         <CollectionView Grid.Column="0"
@@ -51,7 +51,7 @@
                             <CollectionView.ItemTemplate>
                                 <DataTemplate>
                                     <StackLayout Margin="8,0">
-                                        <Frame HasShadow="True" CornerRadius="20" BackgroundColor="{Binding backColor}" WidthRequest="130" VerticalOptions="FillAndExpand" HorizontalOptions="Start">
+                                        <Frame HasShadow="False" CornerRadius="30" BackgroundColor="{Binding backColor}" WidthRequest="130" VerticalOptions="FillAndExpand" HorizontalOptions="Start">
                                             <Grid HorizontalOptions="Center">
                                                 <Grid.RowDefinitions>
                                                     <RowDefinition Height="*"/>
@@ -62,12 +62,13 @@
                                                     <ColumnDefinition Width="*"/>
                                                     <ColumnDefinition Width="Auto"/>
                                                 </Grid.ColumnDefinitions>
-                                                <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" 
-                                                       Source="{Binding FotoOutfit}"  Aspect="AspectFit" 
+                                                <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" 
+                                                       Source="{Binding FotoOutfit}"
+                                                       Aspect="AspectFit" 
                                                        HorizontalOptions="Center"/>
-                                                <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding NamaOutfit}" FontAttributes="Bold" TextColor="Black" FontSize="21"/>
-                                                <Label Grid.Column="0" Grid.Row="2" Text="{Binding Harga}" TextColor="#b48363"/>
-                                                <Button Grid.Column="1" Grid.Row="2" Text="+" BorderColor="#534d44" BorderWidth="1" TextColor="#534d44" BackgroundColor="Transparent" CornerRadius="13" WidthRequest="26" HeightRequest="26" FontSize="{OnPlatform Android='7'}"/>
+                                                <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Text="{Binding NamaOutfit}" FontAttributes="Bold" TextColor="Black" FontSize="18"/>
+                                                <Label Grid.Column="0" Grid.Row="2" Text="{Binding Harga}" TextColor="#b48363" FontSize="14"/>
+                                                <Button Grid.Column="2" Grid.Row="2" Text="Tambah" BorderColor="#534d44" BorderWidth="1" TextColor="Black" BackgroundColor="Transparent" CornerRadius="15" WidthRequest="100" HeightRequest="30" FontSize="{OnPlatform Android='10'}"/>
                                             </Grid>
                                         </Frame>
                                     </StackLayout>
@@ -76,8 +77,8 @@
                         </CollectionView>
 
                         <!-- 4. Market list -->
-                        <Label Grid.Row="3" Padding="20,0" Text="Outfit Market" FontSize="30" TextColor="#332f2e" FontAttributes="Bold"/>
-                        <Label Grid.Row="4" Padding="20,0" Text="7+ markets near you" FontSize="18" TextColor="#a1a0a0" FontAttributes="Bold"/>
+                        <Label Grid.Row="3" Padding="20,0" Text="Outfit Shop" FontSize="30" TextColor="#332f2e" FontAttributes="Bold"/>
+                        <Label Grid.Row="4" Padding="20,0" Text="This shop near to you" FontSize="18" TextColor="#a1a0a0" FontAttributes="Bold"/>
 
 
                         <CollectionView Grid.Row="5" Grid.ColumnSpan="2"
@@ -105,9 +106,9 @@
 
                                         </PanCake:PancakeView>
 
-                                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding Title}" FontAttributes="Bold"/>
+                                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding Title}" TextColor="DarkGray" FontSize="15" FontAttributes="Bold"/>
                                         <Label Grid.Row="1" Grid.Column="1" Text="{Binding Schedule}" TextColor="Silver"/>
-                                        <Label Grid.Row="2" Grid.Column="1" Text="{Binding Description}" TextColor="#a97352" FontAttributes="Bold"/>
+                                        <Label Grid.Row="2" Grid.Column="1" Text="{Binding Description}" TextColor="CadetBlue" FontAttributes="Bold"/>
                                     </Grid>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
@@ -124,19 +125,18 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <StackLayout Grid.Row="0" Orientation="Horizontal">
+                <StackLayout Grid.Row="0" Orientation="Horizontal" BindableLayout.ItemsSource="{Binding Bar}">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <StackLayout Padding="0,0,20,0">
-                                <ImageButton Source="{Binding Picture}" BackgroundColor="#ffe35d" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40" CornerRadius="20" BorderColor="Transparent" BorderWidth="10"/>
-                                <Button Text="{Binding Quantity}" TranslationY="-20" TranslationX="12" BackgroundColor="#ffe35d" WidthRequest="12" HeightRequest="{OnPlatform Android='28'}" FontSize="{OnPlatform Android='8'}" TextColor="#4D4B4B" CornerRadius="10" FontAttributes="Bold"/>
+                                <ImageButton Source="{Binding barPic}" BackgroundColor="LightSlateGray" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40" CornerRadius="20" BorderColor="Transparent" BorderWidth="10"/>
+                                <Button Text="{Binding Quantity}" TranslationY="-15" TranslationX="15" BackgroundColor="LightYellow" WidthRequest="50" HeightRequest="{OnPlatform Android='30'}" FontSize="{OnPlatform Android='9'}" TextColor="#4D4B4B" CornerRadius="15"/>
                             </StackLayout>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
                 </StackLayout>
 
-                <Label Grid.Column="1" HorizontalOptions="End" Text="$49,54" FontAttributes="Bold" TextColor="#4D4B4B" FontSize="20"/>
-                <Image Grid.Column="2" Source="Arrow" WidthRequest="30"/>
+                <Label Grid.Column="1" HorizontalOptions="End" Text="$0" FontAttributes="Bold" TextColor="#4D4B4B" FontSize="30"/>
             </Grid>
         </Grid>
     </ContentPage.Content>

@@ -133,12 +133,22 @@
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
-    <Content Include="tokyo.jpg" />
-    <Content Include="Uniform01.png" />
+    <Content Include="baju.png" />
+    <Content Include="celana.png" />
+    <Content Include="market1.png" />
+    <Content Include="market2.png" />
+    <Content Include="outfit1.png" />
+    <Content Include="outfit2.png" />
+    <Content Include="outfit3.png" />
+    <Content Include="outfit4.png" />
+    <Content Include="outfit5.png" />
+    <Content Include="outfit6.png" />
+    <Content Include="shop.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="topi.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

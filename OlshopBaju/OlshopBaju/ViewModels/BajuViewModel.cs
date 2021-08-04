@@ -9,7 +9,7 @@ namespace OlshopBaju.ViewModels
     {
         public ObservableCollection<Uniform> Outfit { get; set; }
         public ObservableCollection<Market> market { get; set; }
-        public ObservableCollection<UniformBar> uniformBar { get; set; }
+        public ObservableCollection<UniformBar> Bar { get; set; }
 
         public BajuViewModel()
         {
@@ -17,50 +17,50 @@ namespace OlshopBaju.ViewModels
             {
                 new Uniform
                 {
-                    FotoOutfit = "Uniform01.png",
-                    NamaOutfit = "Deep Sea Blue",
+                    FotoOutfit = "outfit1.png",
+                    NamaOutfit = "Purple Dress",
                     Harga = "$19.99",
-                    backColor = Color.Blue
+                    backColor = Color.Lavender
                 },
                 new Uniform
                 {
-                    FotoOutfit = "baju2.jpeg",
-                    NamaOutfit = "Hawaiian Papaya",
-                    Harga = "$4.55",
-                    backColor = Color.Pink
+                    FotoOutfit = "outfit2.png",
+                    NamaOutfit = "Stylish Skirt",
+                    Harga = "$20.55",
+                    backColor = Color.LightSkyBlue
                 },
                 new Uniform
                 {
-                    FotoOutfit = "baju3.jpeg",
-                    NamaOutfit = "Baju apa ini?",
+                    FotoOutfit = "outfit3.png",
+                    NamaOutfit = "Casual Outfit",
                     Harga = "$19.99",
-                    backColor = Color.Aqua
+                    backColor = Color.LightPink
                 },
                 new Uniform
                 {
-                    FotoOutfit = "Uniform01.png", 
-                    NamaOutfit = "Baju apa ini?", 
+                    FotoOutfit = "outfit4.png", 
+                    NamaOutfit = "Nice Casual Outfit", 
                     Harga = "$19.99",
-                    backColor = Color.Beige
+                    backColor = Color.LightGray
                 }
             };
 
-            uniformBar = new ObservableCollection<UniformBar>
+            Bar = new ObservableCollection<UniformBar>
             {
                 new UniformBar
                 {
-                     Picture  = "",
-                     Quantity = "+2"
+                     barPic  = "baju.png",
+                     Quantity = "+15"
                 },
                 new UniformBar
                 {
-                     Picture  = "",
+                     barPic  = "celana.png",
                      Quantity = "+10"
                 },
                 new UniformBar
                 {
-                     Picture  = "",
-                     Quantity = "+4"
+                     barPic  = "topi.png",
+                     Quantity = "+1"
                 }
             };
 
@@ -68,14 +68,14 @@ namespace OlshopBaju.ViewModels
             {
                 new Market
                 {
-                    Picture     = "tokyo.jpg",
+                    Picture     = "market2.png",
                     Title       = "Cyberpunk 2077",
                     Schedule    = "20:00 - 24:00",
                     Description = "⭐ 4.0 | 📍 2 km"
                 },
                 new Market
                 {
-                    Picture     = "aesthetic.jpg",
+                    Picture     = "market1.png",
                     Title       = "Aesthetic Spirit",
                     Schedule    = "08:00 - 21:00",
                     Description = "⭐ 4.9 | 📍 2.5 km"
