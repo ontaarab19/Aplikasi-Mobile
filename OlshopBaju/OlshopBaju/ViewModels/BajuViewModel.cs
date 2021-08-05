@@ -18,29 +18,36 @@ namespace OlshopBaju.ViewModels
                 new Uniform
                 {
                     FotoOutfit = "outfit1.png",
-                    NamaOutfit = "Purple Dress",
-                    Harga = "$19.99",
+                    NamaOutfit = "Vintage Outfit",
+                    Harga = "$18.11",
                     backColor = Color.Lavender
                 },
                 new Uniform
                 {
+                    FotoOutfit = "outfit5.png",
+                    NamaOutfit = "Layering Outfit",
+                    Harga = "$14.99",
+                    backColor = Color.LightGreen
+                },
+                new Uniform
+                {
                     FotoOutfit = "outfit2.png",
-                    NamaOutfit = "Stylish Skirt",
-                    Harga = "$20.55",
+                    NamaOutfit = "Monochrome Outfit",
+                    Harga = "$14.99",
                     backColor = Color.LightSkyBlue
                 },
                 new Uniform
                 {
-                    FotoOutfit = "outfit3.png",
-                    NamaOutfit = "Casual Outfit",
-                    Harga = "$19.99",
-                    backColor = Color.LightPink
+                    FotoOutfit = "outfit6.png", 
+                    NamaOutfit = "Retro Outfit", 
+                    Harga = "$29.99",
+                    backColor = Color.WhiteSmoke
                 },
                 new Uniform
                 {
-                    FotoOutfit = "outfit4.png", 
-                    NamaOutfit = "Nice Casual Outfit", 
-                    Harga = "$19.99",
+                    FotoOutfit = "outfit4.png",
+                    NamaOutfit = "Classy Outfit",
+                    Harga = "$20.55",
                     backColor = Color.LightGray
                 }
             };
@@ -49,18 +56,23 @@ namespace OlshopBaju.ViewModels
             {
                 new UniformBar
                 {
-                     barPic  = "baju.png",
+                     barPic  = "ikonbaju.png",
                      Quantity = "+15"
                 },
                 new UniformBar
                 {
-                     barPic  = "celana.png",
+                     barPic  = "ikoncelana.png",
                      Quantity = "+10"
                 },
                 new UniformBar
                 {
-                     barPic  = "topi.png",
-                     Quantity = "+1"
+                     barPic  = "ikonkemeja.png",
+                     Quantity = "+8"
+                },
+                new UniformBar
+                {
+                     barPic  = "ikonrok.png",
+                     Quantity = "+7"
                 }
             };
 
@@ -76,16 +88,16 @@ namespace OlshopBaju.ViewModels
                 new Market
                 {
                     Picture     = "market1.png",
-                    Title       = "Aesthetic Spirit",
+                    Title       = "Aesthetic Unishop",
                     Schedule    = "08:00 - 21:00",
                     Description = "⭐ 4.9 | 📍 2.5 km"
                 },
                 new Market
                 {
-                    Picture     = "",
-                    Title       = "Brooklyn Fruit Valleyg",
-                    Schedule    = "09:00 - 21:00",
-                    Description = "⭐ 4.9 | 📍 3 km"
+                    Picture     = "market3.png",
+                    Title       = "Tokyo Outfit",
+                    Schedule    = "00:00 - 24:00",
+                    Description = "⭐ 4.5 | 📍 4 km"
                 },
             };
 

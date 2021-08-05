@@ -41,7 +41,7 @@
                         <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="Make your day beautiful today!" FontSize="15" TextColor="Gray" Padding="20,0"/>
                         <Button Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" CornerRadius="10" ImageSource="shop.png" BackgroundColor="LightSkyBlue" WidthRequest="{OnPlatform Android='60'}" HeightRequest="{OnPlatform Android='50'}" VerticalOptions="Fill" HorizontalOptions="End" Margin="0,0,20,0"/>
                    
-                        <!-- 3. Fruit list-->
+                        <!-- Outfit list-->
                         <CollectionView Grid.Column="0"
                                 Grid.Row="2" Grid.ColumnSpan="2"
                                 Margin="20"
@@ -76,7 +76,7 @@
                             </CollectionView.ItemTemplate>
                         </CollectionView>
 
-                        <!-- 4. Market list -->
+                        <!-- Market list -->
                         <Label Grid.Row="3" Padding="20,0" Text="Outfit Shop" FontSize="30" TextColor="#332f2e" FontAttributes="Bold"/>
                         <Label Grid.Row="4" Padding="20,0" Text="This shop near to you" FontSize="18" TextColor="#a1a0a0" FontAttributes="Bold"/>
 
@@ -117,7 +117,7 @@
                 </ScrollView>
             </PanCake:PancakeView>
             
-            <!-- 5. Market bar-->
+            <!-- Bar-->
             <Grid Grid.Row="1" Margin="40,20" VerticalOptions="Center" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
@@ -129,7 +129,7 @@
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
                             <StackLayout Padding="0,0,20,0">
-                                <ImageButton Source="{Binding barPic}" BackgroundColor="LightSlateGray" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40" CornerRadius="20" BorderColor="Transparent" BorderWidth="10"/>
+                                <ImageButton Source="{Binding barPic}" BackgroundColor="LightSlateGray" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40" CornerRadius="40" BorderColor="Transparent" BorderWidth="3"/>
                                 <Button Text="{Binding Quantity}" TranslationY="-15" TranslationX="15" BackgroundColor="LightYellow" WidthRequest="50" HeightRequest="{OnPlatform Android='30'}" FontSize="{OnPlatform Android='9'}" TextColor="#4D4B4B" CornerRadius="15"/>
                             </StackLayout>
                         </DataTemplate>

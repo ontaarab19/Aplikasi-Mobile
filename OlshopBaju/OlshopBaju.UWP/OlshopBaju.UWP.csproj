@@ -135,8 +135,13 @@
     <Content Include="Assets\StoreLogo.scale-400.png" />
     <Content Include="baju.png" />
     <Content Include="celana.png" />
+    <Content Include="ikonbaju.png" />
+    <Content Include="ikoncelana.png" />
+    <Content Include="ikonkemeja.png" />
+    <Content Include="ikonrok.png" />
     <Content Include="market1.png" />
     <Content Include="market2.png" />
+    <Content Include="market3.png" />
     <Content Include="outfit1.png" />
     <Content Include="outfit2.png" />
     <Content Include="outfit3.png" />

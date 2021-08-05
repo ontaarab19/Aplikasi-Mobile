@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-08-04T07:57:59.034</Modified>
+      <Modified>2021-08-05T08:36:46.324</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\OlshopBaju.UWP.exe">
       <PackagePath>entrypoint\OlshopBaju.UWP.exe</PackagePath>
-      <Modified>2021-08-04T07:57:58.101</Modified>
+      <Modified>2021-08-05T08:36:45.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Onta Arab\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -76,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju\bin\Debug\netstandard2.0\OlshopBaju.dll">
       <PackagePath>OlshopBaju.dll</PackagePath>
-      <Modified>2021-08-04T08:38:14.334</Modified>
+      <Modified>2021-08-05T08:36:39.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Onta Arab\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -238,6 +238,22 @@
       <PackagePath>celana.png</PackagePath>
       <Modified>2021-08-04T07:39:55.391</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\ikonbaju.png">
+      <PackagePath>ikonbaju.png</PackagePath>
+      <Modified>2021-08-05T08:21:08.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\ikoncelana.png">
+      <PackagePath>ikoncelana.png</PackagePath>
+      <Modified>2021-08-05T08:21:08.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\ikonkemeja.png">
+      <PackagePath>ikonkemeja.png</PackagePath>
+      <Modified>2021-08-05T08:21:08.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\ikonrok.png">
+      <PackagePath>ikonrok.png</PackagePath>
+      <Modified>2021-08-05T08:21:08.901</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\market1.png">
       <PackagePath>market1.png</PackagePath>
       <Modified>2021-08-04T07:13:25.808</Modified>
@@ -245,6 +261,10 @@
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\market2.png">
       <PackagePath>market2.png</PackagePath>
       <Modified>2021-08-04T07:13:25.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\market3.png">
+      <PackagePath>market3.png</PackagePath>
+      <Modified>2021-08-05T07:52:50.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\outfit1.png">
       <PackagePath>outfit1.png</PackagePath>
@@ -264,11 +284,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\outfit5.png">
       <PackagePath>outfit5.png</PackagePath>
-      <Modified>2021-08-04T07:09:38.676</Modified>
+      <Modified>2021-08-05T08:02:30.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\outfit6.png">
       <PackagePath>outfit6.png</PackagePath>
-      <Modified>2021-08-04T07:09:38.681</Modified>
+      <Modified>2021-08-05T08:05:47.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\shop.png">
       <PackagePath>shop.png</PackagePath>
@@ -303,11 +323,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-08-04T07:57:58.037</Modified>
+      <Modified>2021-08-05T08:36:44.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-08-04T07:57:58.037</Modified>
+      <Modified>2021-08-05T08:36:44.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -323,11 +343,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-08-04T07:51:05.469</Modified>
+      <Modified>2021-08-05T08:36:45.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Computer Data\Coding\C#\Perangkat Mobile\OlshopBaju\OlshopBaju\OlshopBaju.UWP\bin\x86\Debug\Core\OlshopBaju.UWP.exe">
       <PackagePath>OlshopBaju.UWP.exe</PackagePath>
-      <Modified>2021-08-04T07:57:59.030</Modified>
+      <Modified>2021-08-05T08:36:46.320</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
